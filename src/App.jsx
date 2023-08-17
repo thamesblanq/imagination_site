@@ -1,25 +1,25 @@
 import Header from "./Header";
 import Content from "./Content";
-import HALO from 'vanta/src/vanta.halo';
+import DOTS from 'vanta/src/vanta.dots';
 import { useEffect } from "react";
 
 
 function App() {
 
   useEffect(() => {
-      HALO({
+      DOTS({
         el: "#animate",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
-        baseColor: 0x20818,
-        backgroundColor: 0x109,
-        amplitudeFactor: 2.90,
-        xOffset: -0.01,
-        yOffset: 0.07,
-        size: 1.20
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xcd7931,
+        backgroundColor: 0x140f0f,
+        size: 5.00,
+        spacing: 13.00
       })
   }, [])
 
