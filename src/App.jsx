@@ -24,7 +24,7 @@ function App() {
   }, [])
 
   return (
-    <div className="w-full h-auto bg-black" id="animate">
+    <div className="w-full h-auto bg-black overflow-hidden" id="animate">
       <Header />
       <Content />
     </div>

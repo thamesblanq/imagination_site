@@ -1,1 +1,3 @@
-framer motion tutorial
+framer motion tutorial added gsap...
+if you copy the code, make sure to go main.jsx and remove strictmode component wrapping the app component..
+gsap doesn't work right with it
